@@ -30,6 +30,9 @@ TARGET_INIT_VENDOR_LIB := libinit_sec
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/j5y17lte/sepolicy
 
+#kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/refinedkernel_2
+
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
