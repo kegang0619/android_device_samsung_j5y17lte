@@ -31,7 +31,7 @@ TARGET_INIT_VENDOR_LIB := libinit_sec
 BOARD_SEPOLICY_DIRS += device/samsung/j5y17lte/sepolicy
 
 #kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/refinedkernel_2
+TARGET_KERNEL_SOURCE := kernel/samsung/Helios_7870
 TARGET_KERNEL_CONFIG := j5y17lte_01_defconfig
 
 # Properties
