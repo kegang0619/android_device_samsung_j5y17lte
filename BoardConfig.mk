@@ -31,8 +31,8 @@ TARGET_INIT_VENDOR_LIB := libinit_sec
 BOARD_SEPOLICY_DIRS += device/samsung/j5y17lte/sepolicy
 
 #kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/FlareKernel_AOSP_V2
-TARGET_KERNEL_CONFIG := lineage-j5y17lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/Helios_7870
+TARGET_KERNEL_CONFIG := j5y17lte_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
